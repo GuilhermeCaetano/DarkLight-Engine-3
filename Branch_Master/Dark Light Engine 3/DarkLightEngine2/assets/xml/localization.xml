@@ -1,0 +1,70 @@
+<Localization>
+	<Language LanguageID = "IN">
+		<String_1>1 ENGLISH</String_1>
+		<String_2>2 PORTUGUESE</String_2>
+		<String_3>3 SPANISH</String_3>
+		<String_4>4 HYLIAN</String_4>
+		<String_5>5 HUE</String_5>
+		<String_6>ESC TO EXIT</String_6>
+	</Language>
+	<Language LanguageID = "EN">
+		<String_1>WELCOME</String_1>
+		<String_2>This is DarkLight Engine</String_2>
+		<String_3>Current version: V3</String_3>
+		<String_4>Hold Ctrl and press the numbers to allow different movements</String_4>
+		<String_5>1 - Moves the player ship using WASD and SPACE</String_5>
+		<String_6>2 - Moves the camera with WASD</String_6>
+		<String_7>3 - Moves the light with WASD</String_7>
+		<String_8>Currently displaying physics interactions</String_8>
+		<String_9>Please don't mind any light bugs... I'll fix it</String_9>
+		<String_10>Thank you!</String_10>
+	</Language>
+	<Language LanguageID = "PT">
+		<String_1>BEM VINDO</String_1>
+		<String_2>Essa é a DarkLight Engine</String_2>
+		<String_3>Versão atual: V3</String_3>
+		<String_4>Segure Ctrl e pressione os números para diferentes movimentos</String_4>
+		<String_5>1 - Move a nave do jogador usando WASD e ESPAÇO</String_5>
+		<String_6>2 - Move a camera com WASD</String_6>
+		<String_7>3 - Move a luz com WASD</String_7>
+		<String_8>Atualmente mostrando interações físicas</String_8>
+		<String_9>Por favor não se preocupe com bugs nas luzes... eu vou arrumar</String_9>
+		<String_10>Obrigado!</String_10>
+	</Language>
+	<Language LanguageID = "SP">
+		<String_1>BEM VINDO (SPANISH)</String_1>
+		<String_2>Essa é a DarkLight Engine</String_2>
+		<String_3>Versão atual: V3</String_3>
+		<String_4>Segure Ctrl e pressione os números para diferentes movimentos</String_4>
+		<String_5>1 - Move a nave do jogador usando WASD e ESPAÇO</String_5>
+		<String_6>2 - Move a camera com WASD</String_6>
+		<String_7>3 - Move a luz com WASD</String_7>
+		<String_8>Atualmente mostrando interações físicas</String_8>
+		<String_9>Por favor não se preocupe com bugs nas luzes... eu vou arrumar</String_9>
+		<String_10>Obrigado!</String_10>
+	</Language>
+	<Language LanguageID = "HL">
+		<String_1>BEM VINDO (HYLIAN)</String_1>
+		<String_2>Essa é a DarkLight Engine</String_2>
+		<String_3>Versão atual: V3</String_3>
+		<String_4>Segure Ctrl e pressione os números para diferentes movimentos</String_4>
+		<String_5>1 - Move a nave do jogador usando WASD e ESPAÇO</String_5>
+		<String_6>2 - Move a camera com WASD</String_6>
+		<String_7>3 - Move a luz com WASD</String_7>
+		<String_8>Atualmente mostrando interações físicas</String_8>
+		<String_9>Por favor não se preocupe com bugs nas luzes... eu vou arrumar</String_9>
+		<String_10>Obrigado!</String_10>
+	</Language>
+	<Language LanguageID = "HU">
+		<String_1>BEM VINDO (HUE)</String_1>
+		<String_2>Essa é a DarkLight Engine</String_2>
+		<String_3>Versão atual: V3</String_3>
+		<String_4>Segure Ctrl e pressione os números para diferentes movimentos</String_4>
+		<String_5>1 - Move a nave do jogador usando WASD e ESPAÇO</String_5>
+		<String_6>2 - Move a camera com WASD</String_6>
+		<String_7>3 - Move a luz com WASD</String_7>
+		<String_8>Atualmente mostrando interações físicas</String_8>
+		<String_9>Por favor não se preocupe com bugs nas luzes... eu vou arrumar</String_9>
+		<String_10>Obrigado!</String_10>
+	</Language>
+</Localization>

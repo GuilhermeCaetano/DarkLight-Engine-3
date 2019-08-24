@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PhyMath">
+      <UniqueIdentifier>{57fa9784-088d-4165-9082-f122424bc97d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\PhyMath\nPhyMath.cpp">
+      <Filter>PhyMath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\PhyMath\nPhyMath.h">
+      <Filter>PhyMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

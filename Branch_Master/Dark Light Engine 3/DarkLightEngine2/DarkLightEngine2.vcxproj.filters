@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{8ef20054-c95e-4ce8-b172-ed3d038b30bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{37755095-44bf-408c-9507-8e1db5c9a849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{392836b2-f91a-4f91-b723-b6511daefac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{decacce3-15d3-4524-8a39-84fcd2b0c914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components">
+      <UniqueIdentifier>{4e48dd83-203a-4fd9-b109-d5a4ca01124f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Systems">
+      <UniqueIdentifier>{8c9ae10a-d387-4bdd-9814-4682c093c76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Factory">
+      <UniqueIdentifier>{ac32b9da-b7ee-4440-b684-07debd271942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{f46b4db2-1bf5-42f7-b1c8-2b0dd0648dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{f808ea72-5a41-49e2-a76e-1f2f87007ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{01fb7c81-a996-4a09-839a-ccca8f2ae7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{e8b1c676-8fbe-4a68-a168-e1ceb21bf5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{40db00a7-c34e-4f75-9255-bc7f27123620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{866585df-c4d7-4173-9560-d9cc287558fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABB">
+      <UniqueIdentifier>{757afb1e-6947-4579-b2b2-6d00f39d3d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{a4fc16c3-0f27-4a70-9fac-f01d114db3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Behaviours">
+      <UniqueIdentifier>{2d125afb-f06b-4cf1-9cce-6e9e0527157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loaders">
+      <UniqueIdentifier>{280e03c7-b839-4398-9afb-8946bed840ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Light">
+      <UniqueIdentifier>{a06d275d-1e97-4425-ad23-9af38f349158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Audio">
+      <UniqueIdentifier>{51dc1b47-3cfe-447d-8107-90356052076b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Location">
+      <UniqueIdentifier>{225a2ad2-19b5-4d73-b139-d0553c3b1f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Mesh">
+      <UniqueIdentifier>{7ae475d3-827e-4762-ba1c-a8684959827b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Camera">
+      <UniqueIdentifier>{2a8c1256-52e0-4978-b2e7-80071deb6656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Controllers">
+      <UniqueIdentifier>{11ee8d1c-6b12-4995-9bc0-9ebc42a452e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Rigidbody">
+      <UniqueIdentifier>{da10e5f1-9f8a-4c94-83d6-58d453ecf1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Particle">
+      <UniqueIdentifier>{85f27cdb-961e-42f9-9f33-ff44040a3ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Colliders">
+      <UniqueIdentifier>{d7babebc-6700-47a1-8a81-b9655c3ab45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{611e195d-c125-4a7e-8242-a918b732abbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Assimp">
+      <UniqueIdentifier>{b6d395af-e934-4055-a165-f1d54b7e379a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{6847b414-a50a-4dd9-bda6-c1da033e49dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\Commands">
+      <UniqueIdentifier>{f95a5010-041e-4f57-b36e-cd5a0a63fdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Assimp">
+      <UniqueIdentifier>{f8491965-393b-4923-9170-92e458186829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{f9aa3536-f70c-4a5a-86de-b25a87fa0c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deployment">
+      <UniqueIdentifier>{1aa397ae-a829-4b14-ba1e-77e8e1105216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\Items">
+      <UniqueIdentifier>{92403433-8e28-44a4-ad1a-bc34cf80a5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{3e7caa27-dc21-43d2-b59c-7b6142865bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{b72cfe3d-c981-4f2c-a742-7d2fee5b60aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBO">
+      <UniqueIdentifier>{a9513a98-d7c1-4765-9fd9-8f7616683825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Components\AI">
+      <UniqueIdentifier>{1d4721e6-b274-4d17-8a70-1d230b475bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\FSM">
+      <UniqueIdentifier>{9272236d-3642-48de-9188-b55a92d5d3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Prefabs">
+      <UniqueIdentifier>{e9c7925d-4f9f-4488-998e-9cd86f4f221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{0e227437-cd4a-426d-b638-9ce4b5e63443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{8c8a5955-ebca-45b5-9fdd-b8e4226b84a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{eecbaa17-9ab8-4976-b4a0-565c52d372d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Raycast">
+      <UniqueIdentifier>{d24a9ce6-b6b7-483b-9f9b-2429f7411f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\New ECS">
+      <UniqueIdentifier>{4a30712c-10ea-4094-9a3a-aaa5c2657934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{c19bb112-67fb-4589-903c-3f1aa45bb4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Configuration">
+      <UniqueIdentifier>{61b89bc3-9b9e-440a-8103-49616cb6011e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS">
+      <UniqueIdentifier>{395dfe76-1436-49dd-9ba2-20cb35799458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Configuration\Physics">
+      <UniqueIdentifier>{daf1b68e-58cd-49f4-baef-aeb3e6c6475e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Configuration\Files">
+      <UniqueIdentifier>{041df9f6-7a8c-43a7-9c2c-31160f569619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Configuration\Graphics">
+      <UniqueIdentifier>{93cf22d2-e5d4-4a4f-a8c2-5d81b5ac4aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{ee77ee33-608a-4385-878c-ca9ea5561114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets">
+      <UniqueIdentifier>{ec2748da-2124-49ec-a223-159d0b9c2a7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\OpenGL\OpenGLSettings.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Shader\cShaderManager.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Shader\cShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Mesh\cVaoMeshManager.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Factory\cEntityFactory.cpp">
+      <Filter>Entity\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Factory\cEntityFactory_Imp.cpp">
+      <Filter>Entity\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cCameraSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Pools\cPoolManager.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cDrawSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\IO\cIOManager.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cLightSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Helpers\cLightHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Texture\cTextureManager.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Texture\cTextureBMP.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Texture\c24BitBMPPixel.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AABB\cAABBManager.cpp">
+      <Filter>AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AABB\cAABB.cpp">
+      <Filter>AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Math\Sort.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cControllerSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Factory\cComponentFactory.cpp">
+      <Filter>Entity\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cAudioSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sLocationComponent.cpp">
+      <Filter>Entity\Components\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sAudioComponent.cpp">
+      <Filter>Entity\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sCameraComponent.cpp">
+      <Filter>Entity\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sLightComponent.cpp">
+      <Filter>Entity\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sMeshComponent.cpp">
+      <Filter>Entity\Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sPointsColliderComponent.cpp">
+      <Filter>Entity\Components\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\sParticleComponent.cpp">
+      <Filter>Entity\Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Math\nMathHelper.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cBehaviourSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Math\nQuaternionHelper.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Helpers\nPhysicsHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Animation\cAnimationCurveCommand.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Animation\cAssimpBasic.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Animation\cAssimpBasic_Imp.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Mesh\sSkinnedMeshComponent.cpp">
+      <Filter>Entity\Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Animation\nAssimpHelper.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cAnimationSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Mesh\sModelDrawInfo.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Mesh\Assimp\cAssimpMeshLoader.cpp">
+      <Filter>Mesh\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\nSceneHelper.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Deployment\cLocalization.cpp">
+      <Filter>Deployment</Filter>
+    </ClCompile>
+    <ClCompile Include="include\XML\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sFleeBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sEvadeBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sPursueBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sApproachBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sWanderBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sIdleBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Items\sLaserGunComponent.cpp">
+      <Filter>Entity\Components\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\cEntityDispatcher.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Animation\cAnimator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Mesh\sOriginalMeshInfo.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Threading\cTripleThread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="include\FBO\cFBO.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\cMazeMaker.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\AI\sFlockComponent.cpp">
+      <Filter>Entity\Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\AI\cAISystem.cpp">
+      <Filter>Entity\Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Texture\cBitmapLoader.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\nGenerateMap.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AI\cDijkstra.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\cScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AI\cAStar.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AI\FSM\cFSMSystem.cpp">
+      <Filter>AI\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AI\FSM\cFSMState.cpp">
+      <Filter>AI\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\AI\sPathFollowComponent.cpp">
+      <Filter>Entity\Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Threading\cTextureTripleBuffer.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Scene\cTestScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\cEntityBuilder.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cSTLVector.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cSTLList.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cSTLMap.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cDIYVector.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cDIYList.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Containers\cDIYMap.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Physics\nRaycast.cpp">
+      <Filter>Physics\Raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\AI\sNeuralNetworkComponent.cpp">
+      <Filter>Entity\Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Systems\cNeuralNetworkSystem.cpp">
+      <Filter>Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Debug\cDebugRenderer.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\New ECS\nMemoryAllocator.cpp">
+      <Filter>Entity\New ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Components\Behaviours\sSeekBehaviourComponent.cpp">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Loaders\nJsonLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\Configuration\cConfigManager.cpp">
+      <Filter>Engine\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cEngineStateLoader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cComponentManager.cpp">
+      <Filter>Engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cSystemManager.cpp">
+      <Filter>Engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cEntityManager.cpp">
+      <Filter>Engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cECSControl.cpp">
+      <Filter>Engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Entity\Factory\cComponentFactory_Imp.cpp">
+      <Filter>Entity\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cECSPoolContainer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\Configuration\Physics\nPhysicsConfigLoader.cpp">
+      <Filter>Engine\Configuration\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\nAllocatedMemoryFinder.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\Graphics\cGraphicsControl.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\Assets\cAssetManager.cpp">
+      <Filter>Engine\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\cECSEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Engine\Assets\nAssetPack_0.cpp">
+      <Filter>Engine\Assets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\OpenGL\OpenGLHeaders.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader\cShaderManager.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\OpenGLSettings.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh\cVaoMeshManager.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\sEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Factory\cEntityFactory.h">
+      <Filter>Entity\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Factory\cEntityFactory_Imp.h">
+      <Filter>Entity\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cCameraSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pools\cPoolManager.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cDrawSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IO\cIOManager.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cLightSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Helpers\cLightHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture\cTextureManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture\cTextureBMP.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture\c24BitBMPPixel.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AABB\cAABBManager.h">
+      <Filter>AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AABB\cAABB.h">
+      <Filter>AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Sort.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cControllerSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Factory\cComponentFactory.h">
+      <Filter>Entity\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cAudioSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\iBehaviour.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sSeekBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sLocationComponent.h">
+      <Filter>Entity\Components\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sAudioComponent.h">
+      <Filter>Entity\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sCameraComponent.h">
+      <Filter>Entity\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sLightComponent.h">
+      <Filter>Entity\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sMeshComponent.h">
+      <Filter>Entity\Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sPointsColliderComponent.h">
+      <Filter>Entity\Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\sParticleComponent.h">
+      <Filter>Entity\Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\nMathHelper.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cBehaviourSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\nQuaternionHelper.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Helpers\nPhysicsHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\ai_assert.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\anim.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\camera.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\cexport.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\cfileio.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\cimport.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\color4.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\config.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\DefaultLogger.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\defs.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\Exporter.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\Importer.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\importerdesc.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\IOStream.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\IOSystem.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\light.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\Logger.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\LogStream.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\material.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\matrix3x3.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\matrix4x4.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\mesh.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\metadata.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\NullLogger.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\postprocess.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\ProgressHandler.hpp">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\quaternion.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\scene.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\texture.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\types.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\vector2.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\vector3.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Assimp\version.h">
+      <Filter>Animation\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\cAnimationCurveCommand.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\cAssimpBasic.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\cAssimpBasic_Imp.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lua\Commands\iCommand.h">
+      <Filter>Lua\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Mesh\sSkinnedMeshComponent.h">
+      <Filter>Entity\Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\nAssimpHelper.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cAnimationSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh\sModelDrawInfo.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh\Assimp\cAssimpMeshLoader.h">
+      <Filter>Mesh\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\nSceneHelper.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\cPhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Deployment\cLocalization.h">
+      <Filter>Deployment</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sFleeBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sEvadeBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sPursueBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sApproachBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sWanderBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Behaviours\sIdleBehaviourComponent.h">
+      <Filter>Entity\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\Items\sLaserGunComponent.h">
+      <Filter>Entity\Components\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\cEntityDispatcher.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\cAnimator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh\sOriginalMeshInfo.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Threading\cTripleThread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBO\cFBO.h">
+      <Filter>FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\cMazeMaker.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\AI\sFlockComponent.h">
+      <Filter>Entity\Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\AI\cAISystem.h">
+      <Filter>Entity\Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture\cBitmapLoader.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\nGenerateMap.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI\cDijkstra.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\cScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI\cAStar.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI\FSM\cFSMSystem.h">
+      <Filter>AI\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI\FSM\iFSMState.h">
+      <Filter>AI\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI\FSM\cFSMState.h">
+      <Filter>AI\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\AI\sPathFollowComponent.h">
+      <Filter>Entity\Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\sPathNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Threading\cTextureTripleBuffer.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\cTestScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\cEntityBuilder.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\iScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\eModelTypes.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cPerson.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\iPersonMotron.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cSTLVector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cSTLList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cSTLMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cDIYVector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cDIYList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Containers\cDIYMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\nRaycast.h">
+      <Filter>Physics\Raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\AI\sNeuralNetworkComponent.h">
+      <Filter>Entity\Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\cNeuralNetworkSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Debug\cDebugRenderer.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\New ECS\nMemoryAllocator.h">
+      <Filter>Entity\New ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Systems\iSystem.h">
+      <Filter>Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Loaders\nJsonLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cECSEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Configuration\cConfigManager.h">
+      <Filter>Engine\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\eECSTypes.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\sObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cEngineStateLoader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cECSControl.h">
+      <Filter>Engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cComponentManager.h">
+      <Filter>Engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cSystemManager.h">
+      <Filter>Engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cEntityManager.h">
+      <Filter>Engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\nAllocatedMemoryFinder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Factory\cComponentFactory_Imp.h">
+      <Filter>Entity\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\nECSMapper.h">
+      <Filter>Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\Components\iComponent.h">
+      <Filter>Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\ComponentHeaders.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cECSPoolContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Configuration\Physics\nPhysicsConfigLoader.h">
+      <Filter>Engine\Configuration\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Configuration\sConfig.h">
+      <Filter>Engine\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Configuration\Graphics\nShaderConfigLoader.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Graphics\cGraphicsControl.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\cEngine.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Assets\cAssetManager.h">
+      <Filter>Engine\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Assets\sAsset.h">
+      <Filter>Engine\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\Assets\nAssetPack_0.h">
+      <Filter>Engine\Assets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Animation\Assimp\.editorconfig">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\color4.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\material.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\matrix3x3.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\matrix4x4.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\quaternion.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\vector2.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="include\Animation\Assimp\vector3.inl">
+      <Filter>Animation\Assimp</Filter>
+    </None>
+    <None Include="save.json">
+      <Filter>Engine\Configuration\Files</Filter>
+    </None>
+    <None Include="config\config.json">
+      <Filter>Engine\Configuration\Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

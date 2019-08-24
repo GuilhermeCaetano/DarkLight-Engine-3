@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{cee2c96e-b932-4792-81d6-370ba3efdf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions">
+      <UniqueIdentifier>{07bf3f0d-81bf-419d-a284-778ae26353be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{2c56df35-eafb-43b4-836a-6008e426553c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Interfaces\Physics\iRigidbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iRigidbodyFactory.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\sRigidbodyDef.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iPhysicsSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iPhysicsFactory.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iSphereShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iPlaneShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Collisions\iOnCollision.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iCollisionBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iSoftbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\sSoftbodyDef.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iBoxShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iCompoundBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iConstraint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iTetrahedronShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iCylinderShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iSlider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iCapsuleShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\sCompoundbodyDef.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iHeightfieldTerrainShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iBvhTriangleMeshShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Collisions\iRaycast.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Controllers\i3DPersonController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iGhostbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Collisions\eCollisionLayerMask.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iPhysicsDef.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\Physics\iEntity.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interfaces\iDebugRenderer.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

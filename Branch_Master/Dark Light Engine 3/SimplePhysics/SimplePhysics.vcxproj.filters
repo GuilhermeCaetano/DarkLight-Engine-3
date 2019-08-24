@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{04d735a7-2850-46b0-bbd2-3f9120527ff1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\SimplePhysics\Physics\sSimpleRigidbodyComponent.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\cSimplePhysicsSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\cSimplePhysicsFactory.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\cPlaneShape.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\cSphereShape.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\nCreateFactory.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\sSimpleSoftBodyComponent.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SimplePhysics\Physics\nCollide.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SimplePhysics\Physics\sSimpleRigidbodyComponent.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\cSimplePhysicsSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\cSimplePhysicsFactory.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\cPlaneShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\cSphereShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\nCreateFactory.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\sSimpleSoftBodyComponent.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimplePhysics\Physics\nCollide.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
