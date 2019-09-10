@@ -1,7 +1,0 @@
-﻿  nPhyMath.cpp
-c:\users\rogue\desktop\engine\dark light engine 2\phymath\include\phymath\nphymath.cpp(89): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     Creating library C:\Users\rogue\Desktop\Engine\Dark Light Engine 2\x64\Release\phymath.lib and object C:\Users\rogue\Desktop\Engine\Dark Light Engine 2\x64\Release\phymath.exp
-  Generating code
-  All 42 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  phymath.vcxproj -> C:\Users\rogue\Desktop\Engine\Dark Light Engine 2\x64\Release\phymath.dll

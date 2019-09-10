@@ -78,7 +78,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)DarkLightEngine2/include;$(SourcePath)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)DarkLightEngine3/include;$(SourcePath)include;$(IncludePath)</IncludePath>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
@@ -88,7 +88,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)DarkLightEngine2/include;$(SourcePath)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)DarkLightEngine3/include;$(SourcePath)include;$(IncludePath)</IncludePath>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>

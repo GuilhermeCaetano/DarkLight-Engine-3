@@ -7,7 +7,7 @@
 
 struct iEntity : public sObject
 {
-	virtual ~iEntity() { printf("~iEntity() called\n"); };
+	virtual ~iEntity() {};
 
 	virtual bool GetIsActive() = 0;
 	virtual void Start() = 0;
